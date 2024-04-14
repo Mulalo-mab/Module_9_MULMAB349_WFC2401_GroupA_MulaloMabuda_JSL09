@@ -70,7 +70,7 @@ async function fetchBackgroundImage() {
     // Update background image of the document
     document.body.style.backgroundImage = `url(${data.urls.regular})`;
     // Update author name
-    document.getElementById("author").textContent = "Created By: Mulalo"; // Change author name to Sandile
+    document.getElementById("author").textContent = "Created By: Mulalo"; // Change author name to Mulalo
   } catch (error) {
     // Handle errors fetching background image
     console.error("Error fetching image data:", error);
